@@ -1,0 +1,11 @@
+n=[]
+a=input("enter the no.of elements: ")
+for i in range(int(a)):
+  n.append(input("enter the number to be search:"))
+pivot=input("enter the pi8vot element: ")
+for i in range(len(n)):
+  if n[i]==pivot:
+    print("element is found at {} position".format(i+1))
+    break
+else:
+  print("element is not found")
